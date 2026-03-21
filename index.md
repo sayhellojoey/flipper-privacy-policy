@@ -1,3 +1,6 @@
+<style>
+  h1, h2, h3, hr, header { border: 0 !important; border-bottom: none !important; box-shadow: none !important; }
+</style>
 # Privacy Policy for Flipper for YouTube
 **Last updated: March 20, 2026**
 
