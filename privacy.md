@@ -1,27 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - Flipper for YouTube</title>
-    <style>
-        body { font-family: -apple-system, sans-serif; line-height: 1.6; max-width: 650px; margin: 60px auto; padding: 0 20px; color: #f1f1f1; background: #0f0f0f; }
-        h1, h2 { border: 0 !important; color: #fff; }
-        h1 { font-size: 28px; margin-bottom: 30px; }
-        h2 { font-size: 20px; margin-top: 32px; font-weight: 600; }
-        p, li { opacity: 0.8; font-size: 15px; }
-    </style>
-</head>
-<body>
-    <h1>Privacy Policy: Flipper for YouTube</h1>
-    <p><strong>Effective Date: March 20, 2026</strong></p>
-    <p>Flipper for YouTube is committed to protecting your privacy. This policy explains how we handle information when you use our extension.</p>
-    <h2>1. Information We Collect</h2>
-    <ul>
-        <li><strong>Usage Data:</strong> We do not collect or store browsing history, credentials, or preferences.</li>
-        <li><strong>Local Storage:</strong> Your settings and trial status are stored entirely on your local machine and never sent to our servers.</li>
-    </ul>
-    <h2>2. Permissions</h2>
-    <p>The extension uses storage and host permissions for YouTube to flip the layout and ExtensionPay to manage your license status.</p>
-</body>
-</html>
+# Privacy Policy for Flipper for YouTube
+
+**Effective Date: March 20, 2026**
+
+Flipper for YouTube ("we," "us," or "our") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and disclose information when you use our Chrome Extension.
+
+## 1. Information We Collect
+We strive to collect as little data as possible.
+
+*   **Usage Data**: We do not collect or store any information about your browsing history, YouTube credentials, or video preferences.
+*   **Local Storage**: The extension uses `chrome.storage.local` to store your personal preference (Enabled/Disabled state) and your usage status. This data stays entirely on your local machine and is never sent to our servers.
+*   **Payment Data**: Payments are processed through **ExtensionPay** and **Stripe**. We do not have access to your credit card details or financial information. ExtensionPay may collect your email address and payment status to manage your license.
+
+## 2. Permissions
+The extension requires the following permissions to function:
+*   `storage`: To remember your settings locally.
+*   `host_permissions` (*://*.youtube.com/*): To allow the extension to flip the YouTube layout.
+*   `host_permissions` (https://extensionpay.com/*): To verify your payment status.
+
+## 3. Data Sharing
+We do not sell, trade, or otherwise transfer your information to outside parties.
+
+## 4. Changes to This Policy
+We may update our Privacy Policy from time to time. Any changes will be reflected in this document.
+
+## 5. Contact Us
+If you have any questions, please contact us through the Chrome Web Store support dashboard.
